@@ -18,6 +18,12 @@ body {
     padding-top: 1.2rem;
 }
 
+@media only screen and (max-height: 400px) {
+    #body-header {
+        height: 45vh !important;
+
+    }
+  }
 
 
 /* Horizontal Lists */
@@ -121,14 +127,20 @@ section:nth-child(2n + 1) {
     width: 100%;
     position: relative;
     margin-bottom: 30px;
+    position: relative;
+    top:-70px;
 }
 
 #my-image {
     height: 15rem;
     width: 13.5rem;
     margin: auto;
-    margin-top: -17vh;
+    position:relative;
+    /* margin-top: -17vh; */
+    top:-90px;
 }
+
+
 
 #my-image img {
     height: 100%;
@@ -137,6 +149,7 @@ section:nth-child(2n + 1) {
     border: 3px solid white;
     box-shadow: 1px 1px 10px 2px lightgrey;
 }
+
 
 #about-para {
     padding: 10px;
@@ -244,7 +257,7 @@ section:nth-child(2n + 1) {
     top: 10%;
     left: 49.9%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 64%;
     color: #433E3F;
 }
 
