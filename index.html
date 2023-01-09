@@ -7,6 +7,11 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+    <script src=
+    "https://smtpjs.com/v3/smtp.js">
+  </script>
+ 
+</head>
 </head>
 <body>
 
@@ -506,10 +511,10 @@
 
                 <div id="contact-form-container">
                     <form id="contact-form">
-                        <input id="input-name" name="name" type="text" placeholder="Your Name">
-                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
-                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
-                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                        <input id="input-name" name="name" type="text" placeholder="Your Name" required>
+                        <input id="input-email" name="input-email" type="text" required placeholder="Subject" required>
+                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message" ></textarea>
+                        <button id="sub-btn" type="submit">SEND MESSAGE</button>
                     </form>
                 </div>
                 <div id="my-details-container">
