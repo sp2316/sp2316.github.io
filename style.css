@@ -202,7 +202,7 @@ section:nth-child(2n + 1) {
 
 .timeline {
     position: relative;
-    width: 75%;
+    width: 85%;
 }
 
 .timeline-box {
@@ -277,6 +277,12 @@ section:nth-child(2n + 1) {
 .experience-designation {
     font-size: 1.21rem;
 }
+
+/* @media only screen and (max-height: 300px) {
+    .timeline {
+        width:85%;
+    }
+  } */
 
 .experience-company-name {
     margin: 5px 0 0;
