@@ -437,7 +437,7 @@ textarea {
     font-size: 1.05rem;
 }
 
-#contact-form button[type="submit"] {
+#contact-form button[type="submit"],#my-details-container #sub-btn{
     background: transparent;
     font-size: 0.95rem;
     border: 2px solid white;
@@ -453,7 +453,11 @@ textarea {
     text-transform: uppercase;
 }
 
-#contact-form button:hover {
+#my-details-container #sub-btn a{
+    text-decoration: none;
+    color:wheat;
+}
+#contact-form button:hover, #my-details-container #sub-btn:hover{
     background: white;
     color: #13386fe0;
 }
